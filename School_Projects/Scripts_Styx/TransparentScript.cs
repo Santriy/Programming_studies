@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This checks wheter you are behind an object tagged "FrontAsset" and if this is true, fades the object to transparent until you exit the colliderbox in said object.
+//This is attached to the player character so that it works on all the different "FrontAsset" objects in the scene.
+
 public class TransparentScript : MonoBehaviour
 {
     SpriteRenderer spRend;
