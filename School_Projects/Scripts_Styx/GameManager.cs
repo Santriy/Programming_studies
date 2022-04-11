@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This gamemanager changes cursor textures and enables/disables controls.
+
 public class GameManager : MonoBehaviour
 {
     ClicknDrag clicknDrag;
