@@ -32,7 +32,9 @@ public class CameraFollow : MonoBehaviour
     {
         followCam = PlayerMovement.cameraFollowArea;
         timer += Time.deltaTime;
-
+        
+        //This is a function to move the camera up or down after a delay if the player presses the designated buttons.
+        
         if (Input.GetButton("Vertical"))
         {
                 if (0 < Input.GetAxis("Vertical"))
@@ -55,7 +57,8 @@ public class CameraFollow : MonoBehaviour
             timer = 0f;
         }
 
-
+        //Ensures that the camera is moving behind player, wheter they're moving left or right.
+        
         if(PlayerMovement.facingLeft)
         {
             offsetX = negativeOffsetX;
@@ -65,6 +68,7 @@ public class CameraFollow : MonoBehaviour
             offsetX = -negativeOffsetX;
         }
        
+        //Check for the camera to stay in a level position or if to follow the player when moving on Y-axis
 
         if(!followCam)
         {
