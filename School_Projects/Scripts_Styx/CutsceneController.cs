@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//A clumsy cutscene controller I did for the first scene, it basically just tells the player character to move right until it hits a trigger.
+//After hitting said trigger, player controller script lets you control the player.
+
 public class CutsceneController : MonoBehaviour
 {
     PlayerMovement playerMovement;
