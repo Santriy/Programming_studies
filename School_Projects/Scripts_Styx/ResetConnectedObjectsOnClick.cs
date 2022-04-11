@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//A simple object reset script I did for a "puzzle" element of the game. Allows you to click on a set object and then resets the objects connected to it in their
+//original positions.
+
+//Also controls the animations for this "Pillar" object that works as the reset.
+
 public class ResetConnectedObjectsOnClick : MonoBehaviour
 {
     public GameObject[] puzzleObjects;
