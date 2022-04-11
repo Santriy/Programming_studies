@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//A class for dialogue script to use.
+
 [System.Serializable]
 public class Dialogue
 {
