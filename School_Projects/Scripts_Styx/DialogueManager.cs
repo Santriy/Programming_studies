@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This is a working, but sub-optimal script for handing dialogues. 
+//It informs animations to play when talking to the "Charon" NPC which would be better handled in a separate code.
+
 public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
