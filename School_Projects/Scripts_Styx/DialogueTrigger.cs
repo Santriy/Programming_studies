@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script has a distance check that determines if you are close enough to initiate the dialogue.
+
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
