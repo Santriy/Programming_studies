@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//With this code, you are able to move objects with the right tag on screen with your mouse.
+//It should automatically disable all the collision boxes in your object, and possible child objects and enable them when you let go of the object.
+
+
 public class ClicknDrag : MonoBehaviour
 {
     public bool interactionOn;
